@@ -229,7 +229,7 @@ Bi-weekly rebalancing with 0.2% transaction costs reduces annual returns by 0.5%
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Computational Efficiency
 
