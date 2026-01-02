@@ -42,7 +42,7 @@ Traditional risk management strategies suffer from **late re-entry** after defen
 
 1.  **Superior Risk-Adjusted Returns**: 0.97 Sharpe ratio places strategy in top quartile of tactical allocation approaches
 2.  **Volatility Reduction**: 26.7% lower volatility than S&P 500 while maintaining competitive returns
-3.  **Realistic Degradation**: Train-to-test Sharpe decline (1.193 → 0.971) indicates proper methodology without overfitting
+3.  **Realistic Degradation**: Train-to-test Sharpe decline (1.193 => 0.971) indicates proper methodology without overfitting
 
 ---
 
@@ -52,10 +52,10 @@ Traditional risk management strategies suffer from **late re-entry** after defen
 
 **Diversified allocation across multiple asset classes:**
 
-- **Equities (60%)**: Large-cap tech (AAPL, MSFT, GOOGL), growth stocks (AMZN, TSLA, NVDA), international indices (^HSI, ^N225, ^STOXX50E)
+- **Equities (60%)**: Large-cap tech (AAPL, MSFT, GOOGL...), growth stocks (AMZN, TSLA, NVDA...), international indices (^HSI, ^N225, ^STOXX50E)
 - **Fixed Income (20%)**: US Treasuries (TLT, IEF), international bonds (BNDX)
 - **Commodities (10%)**: Gold (GLD), Silver (SI=F), Oil (USO)
-- **Currencies (10%)**: Major pairs (EUR/USD, GBP/USD, USD/JPY, etc.)
+- **Currencies (10%)**: Major pairs (EUR/USD, GBP/USD, USD/JPY,...)
 
 ### 2. Volatility Forecasting
 
@@ -213,7 +213,7 @@ The dynamic approach achieves **higher returns** (15.17% vs 14.81%) with **lower
 
 ### 2. Timing is Everything
 
-The strategy demonstrates **selectivity**: defensive only 23% of the time when needed, not constantly. This explains why performance converges with static during bull markets—by design, the strategy only deviates when risk-return profile deteriorates.
+The strategy demonstrates **selectivity**: defensive only 23% of the time when needed, not constantly. This explains why performance converges with static during bull markets by design, the strategy only deviates when risk-return profile deteriorates.
 
 ### 3. Recovery Capture is Critical
 
@@ -236,7 +236,7 @@ Bi-weekly rebalancing with 0.2% transaction costs reduces annual returns by 0.5%
 **Expected runtime:** 45 minutes per full backtest
 
 **Bottleneck:** Markov-switching model estimation
-- 37 assets × 200 rebalancing periods = 7,400 model fits
+- 37 assets × 70 rebalancing periods = 2,590 model fits
 - Primarily in Module 6 (backtesting)
 
 ---
@@ -252,7 +252,7 @@ GitHub: @aymen-hafsaoui
 
 ##  Disclaimer
 
-This project is for **educational and research purposes only**. Reproduction, distribution, or commercial use without explicit permission is prohibited.
+This project is for **educational and research purposes only**. Reproduction, distribution or commercial use without explicit permission is prohibited.
 
 **Important notes:**
 - This does not constitute financial advice, investment recommendation, or solicitation to buy or sell securities
